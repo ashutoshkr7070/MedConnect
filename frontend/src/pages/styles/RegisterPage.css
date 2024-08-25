@@ -1,0 +1,96 @@
+/* RegisterPage.css */
+.register-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #ece9e6 0%, #ffffff 100%);
+}
+.brand-title {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #1565c0;
+  padding: 10px;
+}
+.brand-title:hover{
+  color: #0c75ee;
+}
+
+.register-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-field {
+  border-radius: 5px;
+  padding: 10px;
+}
+.input-field:focus{
+  border-color: #1e88e5; 
+  box-shadow: 0 0 0 2px rgba(30, 136, 229, 0.2); 
+}
+
+.toggle-password-icon {
+  cursor: pointer;
+  color: #1e88e5;
+  font-size: 18px;
+}
+
+.form-footer {
+  margin-top: 20px;
+}
+
+.login-link {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #1e88e5cc; 
+}
+
+.login-link:hover {
+  text-decoration: underline;
+  color: #1565c0;
+}
+
+.register-button {
+  background-color: #1e88e5;
+  color: #fff;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 100%;
+}
+
+.register-button:hover {
+  background-color: #1565c0;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .register-form {
+    padding: 20px;
+  }
+
+  .form-title {
+    font-size: 20px;
+  }
+}
